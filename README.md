@@ -1,5 +1,3 @@
-# DRCAN-for-remote-sensing-image-super-resolution
-
 cd src
 
 train: python main.py --model DRCAN --scale 2 --save drcan_x2 --res_scale 0.1 --reset 
